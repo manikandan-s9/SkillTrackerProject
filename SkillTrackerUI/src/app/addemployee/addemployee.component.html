@@ -1,0 +1,212 @@
+<!-- Block1 -->
+<div class="container">
+  <div class="row">
+      <h3 class="main_title">Skills Tracker: Add New Employee Skills</h3>
+  </div>
+  <div class="form-row">
+      <div class="col-sm-4 divPadding">
+          <div class="col-sm-12">
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Name</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <input class="form_txt" type="text" [(ngModel)]="name">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Associate ID</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <input class="form_txtsm" type="text" [(ngModel)]="associateID">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Email</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <input class=" form_txt" type="email" [(ngModel)]="email">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Mobile</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <input class="form_txtsm" type="tel" [(ngModel)]="mobile">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Gender</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <div class="switch-field-gender">  
+                          <div class="level">
+                              <input type="radio" id="gender_M" name="gender" value="M" [(ngModel)]="gender"/>
+                              <label for="gender_M">Male</label>
+                          </div>
+                      </div>
+                      <div class="switch-field-gender">  
+                          <div class="level">
+                              <input type="radio" id="gender_F" name="gender" value="F" [(ngModel)]="gender"/>
+                              <label for="gender_F">Female</label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div> 
+      </div>
+      <div class="col-sm-2 divPadding">
+        <div class="row">
+          <div class="col-sm-12">
+              <div id="image-preview" [style.backgroundImage]="'url(' + bgImage + ')'">
+                <label for="image-upload" id="image-label">Upload Pic</label>
+                <input type="file" name="image" id="image-upload" accept="image/*" [(ngModel)]="pic" (change)="changeListener($event)"/>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+          <div class="form-row form_group">
+              <div class="col-sm-6 divPadding">
+                  <div class="switch-field-green level_main">   
+                      <div class="status green">
+                          <input type="radio" id="switch_green" name="status" value="G" [(ngModel)]="status"/>
+                          <label for="switch_green">Status Green</label>
+                      </div>
+                  </div>
+                  <div class="switch-field-blue level_main">   
+                      <div class="status blue">
+                          <input type="radio" id="switch_blue" name="status" value="B" [(ngModel)]="status"/> 
+                          <label for="switch_blue">Status Blue</label> 
+                      </div>
+                  </div>
+                  <div class="switch-field-red level_main">   
+                      <div class="status red">
+                          <input type="radio" id="switch_red" name="status" value="R" [(ngModel)]="status"/> 
+                          <label for="switch_red">Status Red</label> 
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-6 divPadding">
+                  <div class="switch-field level_main divLevelPadding">  
+                      <div class="level">
+                          <input type="radio" id="switch_L1" name="level" value="L1" [(ngModel)]="level"/>
+                          <label for="switch_L1">L1</label>
+                      </div>
+                  </div>
+                  <div class="switch-field level_main divLevelPadding">  
+                      <div class="level">
+                          <input type="radio" id="switch_L2" name="level" value="L2" [(ngModel)]="level"/>
+                          <label for="switch_L2">L2</label>
+                      </div>
+                  </div>
+                  <div class="switch-field level_main divLevelPadding">  
+                      <div class="level">
+                          <input type="radio" id="switch_L3" name="level" value="L3" [(ngModel)]="level"/>
+                          <label for="switch_L3">L3</label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+          <div class="row">
+              <div class="col-sm-12">
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <label>Remarks:</label>
+                          <textarea class="form_txtarea" [(ngModel)]="remarks"></textarea>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="form-row">
+      <div class="dotted_line"></div>
+  </div>
+
+          <!-- Block2 -->
+  <div class="row">
+      <h3 class="main_title">Skills</h3>
+  </div>
+  <div class="form-row">
+    <form [formGroup]="skillForm" class="form-row">
+      <ng-container formArrayName="skillslider">
+        <div class="col-sm-4" *ngFor="let result of skillForm.get('skillslider')['controls']; let i = index" [formGroupName]="i">
+            <div class="range_main">
+                <div class="col-sm-4 range_label">
+                    <input type="text" readonly class="txtLabel" formControlName="Skill_Name"/>
+                </div>
+                <div class="col-sm-8 range_slider">
+                    <span class="start">0</span>
+                    <div class="slider_txt">        
+                        <input type="range" min="0" max="20" class="slider" formControlName="Skill_Score"/>
+                    </div>
+                    <span class="end">20</span>
+                </div>
+            </div>
+        </div>
+      </ng-container>      
+    </form>
+    <div class="col-sm-4">
+        <div class="form-row range_main">
+            <div class="col-sm-4 range_label">
+                <label>Others</label>
+            </div>
+            <div class="col-sm-8">        
+                <input type="text" class="form_txtsm" [(ngModel)]="others">
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+      <div class="dotted_line"></div>
+  </div>
+  <div class="form-row divPadding">
+      <div class="col-sm-5">
+          <div class="form-row">
+              <div class="col-sm-2">
+                  <label class="form_label">Strength</label>
+              </div>
+              <div class="col-sm-10">
+                  <input class="form_txt" type="text" [(ngModel)]="strength">
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-6">
+        <div class="form-row">
+              <div class="col-sm-2">
+                  <label class="form_label">Weakness</label>
+              </div>
+              <div class="col-sm-8">
+                  <input class="form_txt" type="text" [(ngModel)]="weakness">
+              </div>
+          </div>
+      </div> 
+  </div>
+
+  <div class="row">
+      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6">
+        <div class="form-row">
+          <div class="col-4 pr0">
+              <button type="button" class="btnm" (click)="callReset()">Reset</button>
+          </div>
+          <div class="col-4 pr0">
+              <button type="button" class="btnm mr10" [routerLink]="['/skilldashboard']">Cancel</button>
+          </div>
+          <div class="col-4 pr0">
+              <button type="button" class="btnm mr10" (click)="callAddAssociate()">Save</button>
+          </div>
+        </div>        
+      </div>      
+  </div>
+</div>

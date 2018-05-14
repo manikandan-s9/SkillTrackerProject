@@ -1,0 +1,289 @@
+/* You can add global styles to this file, and also import other style files */
+body
+{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.main_bg{
+    background-color: #f1f1f1;
+}
+.inner_bg{
+    background-color: #ffffff;
+}
+.main_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin:15px 10px;
+}
+.pr0{
+    padding-right: 0;
+    text-align: center;
+}
+.pl0{
+    padding-left: 0;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr15{
+    margin-right: 15px;
+}
+.form_group{
+    float: left;
+    margin-bottom: 0;
+    margin-left: 10px;
+    width: 100%;
+}
+.form_label{
+    float: left;
+    font-size: 14px;
+}
+.form_txt{
+    float: left;
+    width: 100%;
+    background-color: #f1f1f1;
+    border:none;
+    height: 25px;
+    padding: 0 10px;
+}
+.form_txtsm{
+    float: left;
+    width: 80%;
+    background-color: #f1f1f1;
+    border:none;
+    height: 25px;
+    padding: 0 10px;
+}
+.uploadpic{
+    width: 120px;
+    height: 125px;
+    background-color: #f1f1f1;
+}
+.level_main{
+    float: left;
+    margin-bottom: 10px;
+}
+.status{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 5px;
+}
+.green{
+    background-color: #00FF00;
+}
+.blue{
+    background-color: #007bff;
+}
+.red{
+    background-color: #FF0000;
+}
+.level{
+    height: 35px;
+    float: left;
+    background-color: #f1f1f1;
+}
+
+.status span, .level span{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+} 
+.level span{
+    margin-top: 30%;
+}
+.form_txtarea{    
+    width: 100%;
+    background-color: #f1f1f1;
+    border:none;
+    height: 100%;
+    padding-right: 0 10px;
+}
+.dotted_line{
+    border-top:1.25px dotted #999999;
+    margin:15px 10px;
+    width: 100%;    
+}
+.form_labellg{
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+    float: left;
+}
+.btnsm{
+    background-color: #c5c5c5;
+    border: 1px solid #666666;
+    width: 40px;
+    height: 25px;
+    text-overflow: clip;
+    overflow-wrap:unset;
+}
+.btnm{
+    background-color: #c5c5c5;
+    border: 1px solid #666666;
+    width: 100%;
+}   
+.range_main{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.range_label{
+    float: left;
+    width:35%;
+}
+.range_slider{
+    float: left;
+    width:65%;
+}
+.start{
+    float: left;
+    width: 5%;
+}
+.slider_txt{
+    float: left;
+    width: 75%;
+}
+.end{
+    width: 10%;
+    float: left;
+    margin-left:5px;
+}
+#custom-handle {
+    width: 2em;
+    height: 1.5em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.skill_list{
+    margin-left: 10%;
+    list-style: none;
+}
+.skill_list li{
+    margin-top:10px; 
+    float: left;
+    width: 100%;
+}
+.skill_list li span{
+    float: left;
+    width: 65%;
+}
+.skill_list li .btnsm{
+    float: left;
+    width: 60px;
+    margin-left: 5px;
+}
+.skills_block{
+    display: flex;
+    width: 100%;
+    height: 170px;
+    background-color: #f1f1f1;
+}
+.skills_block span{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 85px;
+}
+.skill1{
+    width:15%;   
+    background-color: #D2691E;
+}
+.skill2{
+    width:10%;   
+    background-color:#008000;
+}
+.skill3{
+    width:20%;   
+    background-color:#FF00FF;
+}
+.skill4{
+    width:10%;   
+    background-color:#DAA520;
+}
+.skill5{
+    width:8%;   
+    background-color:#8B008B;
+}
+.skill6{
+    width:8%;   
+    background-color:#800000;
+}
+.skill7{
+    width:5%;   
+    background-color:#9400D3;
+}
+.skill8{
+    width:5%;   
+    background-color: #B22222;
+}
+
+.candidate_blk{
+    float: left;
+    width: 111px;
+    height: 80px;
+    background-color: #f1f1f1;
+    padding: 5px 8px;
+    margin-right: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cand_val{
+    font-size: 20px;   
+    margin-bottom:0; 
+}
+.cand_txt{
+    color: #666666;
+    font-size: 12px;
+    line-height: 15px;
+}
+.sformtxt{
+    float: left;
+    background-color: #f1f1f1;
+    border:none;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.txtpic{width: 100%; color: gray; font-weight: 200}
+.txtstatus{width:100%; color: gray; font-weight: 200}
+.txtname{width:100%;}
+.txtid{width:100%;}
+.txtemail{width:100%;}
+.txtmobile{width:100%;}
+.txtskill{
+    width:100%;
+}
+.pic_box{
+    height: 20px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.st_box{
+    width: 10px;
+    height: 10px;
+}
+.table{
+    table-layout: fixed;
+}
+@media(max-width: 768px)
+{
+    .skill_list{
+        margin-left: 0%;
+    }
+    .skill_list li span{
+        width: 55%;
+    }
+}

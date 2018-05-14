@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkillTrackerDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Associate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="320" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Pic" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Status_Green" Type="Boolean" />
+    <Property Name="Status_Blue" Type="Boolean" />
+    <Property Name="Status_Red" Type="Boolean" />
+    <Property Name="Level_1" Type="Boolean" />
+    <Property Name="Level_2" Type="Boolean" />
+    <Property Name="Level_3" Type="Boolean" />
+    <Property Name="Remark" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Strength" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Weakness" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="Other_Skills" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Associate_ID" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Associate_Skills" Relationship="Self.FK_SkillTrackerDB_Associate_ID" FromRole="Associate" ToRole="Associate_Skills" />
+  </EntityType>
+  <EntityType Name="Associate_Skills">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Associate_ID" Type="Int64" Nullable="false" />
+    <Property Name="Skill_ID" Type="Int64" Nullable="false" />
+    <Property Name="Skill_Score" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Associate" Relationship="Self.FK_SkillTrackerDB_Associate_ID" FromRole="Associate_Skills" ToRole="Associate" />
+    <NavigationProperty Name="Skill" Relationship="Self.FK_SkillTrackerDB_Skill_ID" FromRole="Associate_Skills" ToRole="Skills" />
+  </EntityType>
+  <EntityType Name="Skill">
+    <Key>
+      <PropertyRef Name="Skill_ID" />
+    </Key>
+    <Property Name="Skill_ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Skill_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Associate_Skills" Relationship="Self.FK_SkillTrackerDB_Skill_ID" FromRole="Skills" ToRole="Associate_Skills" />
+  </EntityType>
+  <Association Name="FK_SkillTrackerDB_Associate_ID">
+    <End Role="Associate" Type="Self.Associate" Multiplicity="1" />
+    <End Role="Associate_Skills" Type="Self.Associate_Skills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Associate">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Associate_Skills">
+        <PropertyRef Name="Associate_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SkillTrackerDB_Skill_ID">
+    <End Role="Skills" Type="Self.Skill" Multiplicity="1" />
+    <End Role="Associate_Skills" Type="Self.Associate_Skills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skills">
+        <PropertyRef Name="Skill_ID" />
+      </Principal>
+      <Dependent Role="Associate_Skills">
+        <PropertyRef Name="Skill_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SkillTrackerDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Associates" EntityType="Self.Associate" />
+    <EntitySet Name="Associate_Skills" EntityType="Self.Associate_Skills" />
+    <EntitySet Name="Skills" EntityType="Self.Skill" />
+    <AssociationSet Name="FK_SkillTrackerDB_Associate_ID" Association="Self.FK_SkillTrackerDB_Associate_ID">
+      <End Role="Associate" EntitySet="Associates" />
+      <End Role="Associate_Skills" EntitySet="Associate_Skills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SkillTrackerDB_Skill_ID" Association="Self.FK_SkillTrackerDB_Skill_ID">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="Associate_Skills" EntitySet="Associate_Skills" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

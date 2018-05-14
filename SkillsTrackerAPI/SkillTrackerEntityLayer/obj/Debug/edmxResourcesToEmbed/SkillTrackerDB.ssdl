@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SkillTrackerDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Associate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" MaxLength="320" />
+    <Property Name="Mobile" Type="varchar" MaxLength="25" />
+    <Property Name="Pic" Type="nvarchar" MaxLength="500" />
+    <Property Name="Status_Green" Type="bit" />
+    <Property Name="Status_Blue" Type="bit" />
+    <Property Name="Status_Red" Type="bit" />
+    <Property Name="Level_1" Type="bit" />
+    <Property Name="Level_2" Type="bit" />
+    <Property Name="Level_3" Type="bit" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="500" />
+    <Property Name="Strength" Type="varchar" MaxLength="200" />
+    <Property Name="Weakness" Type="varchar" MaxLength="200" />
+    <Property Name="Gender" Type="char" MaxLength="5" />
+    <Property Name="Other_Skills" Type="varchar" MaxLength="250" />
+    <Property Name="Associate_ID" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Associate_Skills">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Associate_ID" Type="bigint" Nullable="false" />
+    <Property Name="Skill_ID" Type="bigint" Nullable="false" />
+    <Property Name="Skill_Score" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Skills">
+    <Key>
+      <PropertyRef Name="Skill_ID" />
+    </Key>
+    <Property Name="Skill_ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Skill_Name" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_SkillTrackerDB_Associate_ID">
+    <End Role="Associate" Type="Self.Associate" Multiplicity="1" />
+    <End Role="Associate_Skills" Type="Self.Associate_Skills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Associate">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Associate_Skills">
+        <PropertyRef Name="Associate_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SkillTrackerDB_Skill_ID">
+    <End Role="Skills" Type="Self.Skills" Multiplicity="1" />
+    <End Role="Associate_Skills" Type="Self.Associate_Skills" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Skills">
+        <PropertyRef Name="Skill_ID" />
+      </Principal>
+      <Dependent Role="Associate_Skills">
+        <PropertyRef Name="Skill_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SkillTrackerDBModelStoreContainer">
+    <EntitySet Name="Associate" EntityType="Self.Associate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Associate_Skills" EntityType="Self.Associate_Skills" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Skills" EntityType="Self.Skills" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_SkillTrackerDB_Associate_ID" Association="Self.FK_SkillTrackerDB_Associate_ID">
+      <End Role="Associate" EntitySet="Associate" />
+      <End Role="Associate_Skills" EntitySet="Associate_Skills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SkillTrackerDB_Skill_ID" Association="Self.FK_SkillTrackerDB_Skill_ID">
+      <End Role="Skills" EntitySet="Skills" />
+      <End Role="Associate_Skills" EntitySet="Associate_Skills" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

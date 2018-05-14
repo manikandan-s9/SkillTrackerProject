@@ -1,0 +1,190 @@
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\csc.exe
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\vbc.exe
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\VBCSCompiler.exe
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillsTrackerAPI.dll.config
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillsTrackerAPI.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillsTrackerAPI.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Antlr3.Runtime.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.SqlServer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.Web.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.ApplicationInsights.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Newtonsoft.Json.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Owin.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerBusinessLayer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerEntityLayer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Net.Http.Formatting.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Helpers.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.Owin.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.WebHost.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Mvc.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Optimization.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Razor.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Deployment.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Razor.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\WebGrease.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerDataLayer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerBusinessLayer.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerEntityLayer.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.Web.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.ApplicationInsights.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Newtonsoft.Json.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Net.Http.Formatting.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Helpers.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.WebHost.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Mvc.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Optimization.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Razor.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Deployment.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Razor.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Antlr3.Runtime.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.SqlServer.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.Owin.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerDataLayer.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.csprojResolveAssemblyReference.cache
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillsTrackerAPI.dll.config
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillsTrackerAPI.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillsTrackerAPI.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Owin.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerBusinessLayer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerDataLayer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerEntityLayer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.Owin.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerBusinessLayer.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerDataLayer.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\SkillTrackerEntityLayer.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Web.Http.Owin.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.pdb

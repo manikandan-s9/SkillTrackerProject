@@ -1,0 +1,383 @@
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.divPadding{
+    padding-bottom: 3%;
+}
+.divLevelPadding{
+    padding-bottom: 5%;
+}
+.col-sm, .col-sm-1, .col-sm-10, .col-sm-11,  .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto{
+    padding-right: 0px;
+    padding-left: 0.2%;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {    
+    input[type='range']::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      background: darkblue;
+    }
+}
+#image-preview {
+  width: 100%;
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  color: #ecf0f1;
+}
+#image-preview input {
+  line-height: 200px;
+  font-size: 200px;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+}
+#image-preview label {
+  position: absolute;
+  z-index: 5;
+  opacity: 0.2;
+  cursor: pointer;
+  background-color: #bdc3c7;
+  width: 100%;
+  height: 140px;
+  font-size: 20px;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+/* Status Green */
+.switch-field-green {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+    overflow: hidden;
+    background-color: #00FF00;
+}
+
+.switch-title-green {
+  margin-bottom: 6px;
+}
+
+.switch-field-green input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field-green label {
+  float: left;
+}
+
+.switch-field-green label {
+  display: inline-block;
+  background-color: #00FF00;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 10px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 7px 7px 7px 5px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field-green label:hover {
+    cursor: pointer;
+}
+
+.switch-field-green:checked + label {
+  background-color: #A5DC86;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field-green label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field-green label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+/* Status Red */
+.switch-field-red {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+    overflow: hidden;
+    background-color: #FF0000;
+}
+
+.switch-title-red {
+  margin-bottom: 6px;
+}
+
+.switch-field-red input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field-red label {
+  float: left;
+}
+
+.switch-field-red label {
+  display: inline-block;
+  background-color: #FF0000;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 10px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 7px 7px 7px 5px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field-red label:hover {
+    cursor: pointer;
+}
+
+.switch-field-red:checked + label {
+  background-color: #A5DC86;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field-red label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field-red label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+/* Status Blue */
+.switch-field-blue {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+    overflow: hidden;
+    background-color: #007bff;
+}
+
+.switch-title-blue {
+  margin-bottom: 6px;
+}
+
+.switch-field-blue input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field-blue label {
+  float: left;
+}
+
+.switch-field-blue label {
+  display: inline-block;
+  background-color: #007bff;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 10px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 7px 7px 7px 5px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field-blue label:hover {
+    cursor: pointer;
+}
+
+.switch-field-blue:checked + label {
+  background-color: #A5DC86;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field-blue label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field-blue label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+/* Level */
+.switch-field {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+}
+
+.switch-title {
+  margin-bottom: 6px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+  float: left;
+}
+
+.switch-field label {
+  display: inline-block;
+  height:40px;
+  background-color: #e4e4e4;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 6px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #A5DC86;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 0 0 0 0;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 0 0 0;
+}
+
+.txtLabel{
+    border:0px;
+}
+
+.switch-field-gender {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+}
+
+.switch-field-gender input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field-gender label {
+  float: left;
+}
+
+.switch-field-gender label {
+  display: inline-block;
+  background-color: #e4e4e4;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: none;
+  padding: 6px 14px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+}
+
+.switch-field-gender label:hover {
+    cursor: pointer;
+}
+
+.switch-field-gender input:checked + label {
+  background-color: #A5DC86;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.switch-field-gender label:first-of-type {
+  border-radius: 0 0 0 0;
+}
+
+.switch-field-gender label:last-of-type {
+  border-radius: 0 0 0 0;
+}

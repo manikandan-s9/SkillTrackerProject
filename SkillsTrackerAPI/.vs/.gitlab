@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 57,
+    "Username": "manikandan.s9",
+    "Name": "Manikandan S",
+    "Email": "manikandan.s9@cognizant.com",
+    "AvatarUrl": "http://www.gravatar.com/avatar/766ea9ed1b376295cf274bba1e939978?s=80&d=identicon",
+    "PrivateToken": "053e9d801a5b7a9ce4a5ee19cf0e9fef2b53177b3fb5d16fff09d3563828fb6b",
+    "Host": "http://172.18.2.18",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}

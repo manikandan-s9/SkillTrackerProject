@@ -1,0 +1,112 @@
+<div class="">
+    <div class="inner_bg">
+
+        <div class="container">
+            <div class="row">
+                <h3 class="main_title">Skills Tracker: Search Associate</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-10 pr0">
+                    <div>  
+                        <div #container></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 pr0">                        
+                            <div class="candidate_blk">
+                                <p class="cand_val">{{totalAssociteRegistered}}</p>
+                                <p class="cand_txt">Registered Candidates</p>
+                            </div>
+                            <div class="candidate_blk">
+                                <p class="cand_val">{{femaleAssociate | number:'2.1-2'}}%</p>
+                                <p class="cand_txt">Female Candidates</p>
+                            </div>
+                            <div class="candidate_blk">
+                                <p class="cand_val">{{maleAssociate | number:'2.1-2'}}%</p>
+                                <p class="cand_txt">Male Candidates</p>
+                            </div>
+                            <div class="candidate_blk">
+                                <p class="cand_val">{{freshAssociate | number:'2.1-2'}}%</p>
+                                <p class="cand_txt">Candidates Freshers</p>
+                            </div>
+                            <div class="candidate_blk">
+                                <p class="cand_val">{{ratedAssociate}}</p>
+                                <p class="cand_txt">Candidates Rated</p>
+                            </div>
+                            <div class="candidate_blk">
+                                <p class="cand_val">{{femaleRatedAssociate | number:'2.1-2'}}%</p>
+                                <p class="cand_txt">Female Candidates Rated</p>
+                            </div>
+                            <div class="candidate_blk">
+                                <p class="cand_val">{{maleRatedAssociate | number:'2.1-2'}}%</p>
+                                <p class="cand_txt">Male Candidates Rated</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="candidate_blk ">
+                        <p class="cand_val">{{level3Associate | number:'2.1-2'}}%</p>
+                        <p class="cand_txt">Level 3 Candidates</p>
+                    </div>
+                    <div class="candidate_blk ">
+                        <p class="cand_val">{{level2Associate | number:'2.1-2'}}%</p>
+                        <p class="cand_txt">Level 2 Candidates</p>
+                    </div>
+                    <div class="candidate_blk ">
+                        <p class="cand_val">{{level1Associate | number:'2.1-2'}}%</p>
+                        <p class="cand_txt">Level 1 Candidates</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="table" style="font-size: 13px;">
+                            <tbody>
+                                <tr>
+                                    <th width="40px"><label class="sformtxt txtpic">Pic</label></th>
+                                    <th width="55px"><label class="sformtxt txtstatus">status</label></th>
+                                    <th><input class="sformtxt txtname" placeholder="name" name="name" [(ngModel)]="name" type="text"></th>
+                                    <th><input class="sformtxt txtid" placeholder="Associate ID" name="associateID" [(ngModel)]="associateID" type="text"></th>
+                                    <th><input class="sformtxt txtemail" placeholder="Email ID" name="email" [(ngModel)]="email" type="text"></th>
+                                    <th><input class="sformtxt txtmobile" placeholder="Mobile no" name="mobile" [(ngModel)]="mobile" type="text"></th>
+                                    <th><input class="sformtxt txtskill" placeholder="Skill" name="skill" [(ngModel)]="skill" type="text"></th>
+                                    <th><button type="button" class="btnm" [routerLink]="['/addemployee']">Add Associate</button></th>
+                                </tr>
+                                <tr *ngFor="let result of associates | myfilter : name:associateID:email:mobile:skill">
+                                    <td><div class="pic_box" [style.backgroundImage]="'url(' + this._skillTrackerService.serviceURL + 'Images/' + result.Pic + ')'"></div></td>
+                                    <td>
+                                        <div *ngIf="result.Status_Green"><div class="st_box green"></div></div>
+                                        <div *ngIf="result.Status_Blue"><div class="st_box blue"></div></div>
+                                        <div *ngIf="result.Status_Red"><div class="st_box red"></div></div>
+                                    </td>
+                                    <td><b>{{result.Name}}</b></td>
+                                    <td><b>{{result.Associate_ID}}</b></td>
+                                    <td>{{result.Email}}</td>
+                                    <td><b>{{result.Mobile}}</b></td>
+                                    <td>{{result.skills_join}}</td>
+                                    <td style="font-size: 10px;">
+                                        <div class="form-row">
+                                            <div class="col-md-4">
+                                                <button type="button" class="btnsm" (click)="callInitEdit(result.ID)">Edit</button>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button type="button" class="btnsm" (click)="callInitDelete(result.ID)">Delete</button>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <button type="button" class="btnsm" (click)="callInitView(result.ID)">View</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

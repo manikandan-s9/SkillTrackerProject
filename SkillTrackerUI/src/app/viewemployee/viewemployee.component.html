@@ -1,0 +1,167 @@
+<!-- Block1 -->
+<div class="container">
+  <div class="row">
+      <h3 class="main_title">Skills Tracker: View Employee Skills</h3>
+      <input type="hidden" [(ngModel)]="id">
+  </div>
+  <div class="form-row">
+      <div class="col-sm-4 divPadding">
+          <div class="col-sm-12">
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Name :</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{name}}</label>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Associate ID :</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{associateID}}</label>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Email :</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{email}}</label>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Mobile :</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{mobile}}</label>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Gender :</label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{gender}}</label>
+                  </div>
+              </div>
+          </div> 
+      </div>
+      <div class="col-sm-2 divPadding">
+        <div class="row">
+          <div class="col-sm-12">
+              <div id="image-preview" [style.backgroundImage]="'url(' + bgImage + ')'">                
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="row">
+              <div class="col-sm-12 divPadding row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Associate Status : </label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{status}}</label>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-12 divPadding row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Associate Level : </label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{level}}</label>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-12 divPadding row">
+                  <div class="col-sm-4">
+                      <label class="form_label">Remarks : </label>
+                  </div>
+                  <div class="col-sm-8">
+                      <label class="form_label">{{remarks}}</label>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="form-row">
+      <div class="dotted_line"></div>
+  </div>
+
+          <!-- Block2 -->
+  <div class="row">
+      <h3 class="main_title">Skills</h3>
+  </div>
+  <div class="form-row">
+    <div class="col-sm-3" *ngFor="let result of skills">
+        <div class="row">
+            <div class="col-sm-6">
+                <label>{{result.Skill_Name}} : </label>
+            </div>
+            <div class="col-sm-6">
+              {{result.Skill_Score}}
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-row row">
+            <div class="col-sm-3 range_label">
+                <label>Others : </label>
+            </div>
+            <div class="col-sm-9">        
+                <label class="form_label">{{others}}</label>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+      <div class="dotted_line"></div>
+  </div>
+  <div class="form-row divPadding">
+      <div class="col-sm-5">
+          <div class="form-row">
+              <div class="col-sm-2">
+                  <label class="form_label">Strength : </label>
+              </div>
+              <div class="col-sm-10">
+                  <label class="form_label">{{strength}}</label>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-6">
+        <div class="form-row">
+              <div class="col-sm-2">
+                  <label class="form_label">Weakness : </label>
+              </div>
+              <div class="col-sm-8">
+                  <label class="form_label">{{weakness}}</label>
+              </div>
+          </div>
+      </div> 
+  </div>
+
+  <div class="row">
+      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6">
+        <div class="form-row">
+          <div class="col-4 pr0">
+          </div>
+          <div class="col-4 pr0">
+              <button type="button" class="btnm" (click)="callDelete()">Delete</button>
+          </div>
+          <div class="col-4 pr0">
+              <button type="button" class="btnm mr10" [routerLink]="['/skilldashboard']">Cancel</button>
+          </div>
+        </div>        
+      </div>      
+  </div>
+</div>

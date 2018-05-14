@@ -1,0 +1,36 @@
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.dll.config
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.dll
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.pdb
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.dll
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerEntityLayer.dll
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerEntityLayer.pdb
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.xml
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.csprojResolveAssemblyReference.cache
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.dll
+D:\FSD_SBA_Certification\SkillTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.dll.config
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerEntityLayer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerEntityLayer.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.csprojResolveAssemblyReference.cache
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.pdb
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.xml
+D:\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.dll.config
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerDataLayer.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerEntityLayer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\SkillTrackerEntityLayer.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillTrackerDataLayer\obj\Debug\SkillTrackerDataLayer.pdb

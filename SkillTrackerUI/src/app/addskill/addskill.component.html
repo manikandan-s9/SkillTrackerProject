@@ -1,0 +1,38 @@
+<div class="container" (ng-init)="callGetAllSkills()">
+  <div class="wrapper content">
+    <h5 class="headers">Skills Tracker: Add Skill Page</h5>
+  </div>
+  <div class="row ctrlGap divPadding">
+    <div class="col-sm-2">
+          Add Skill:
+    </div>
+    <div class="col-sm-8">
+      <input type="text" class="input-control form_txt" placeholder="Skill Name" [(ngModel)]="skill" name="skill" required  />
+      <input type="hidden" [(ngModel)]="skillID" name="skillID"/>
+    </div>
+    <div class="col-sm-2">
+      <input name="addSkill"type="submit" value="Add" (click)="callAddSkill()" class="btn btn-default btn-md btn-block"/>
+    </div>
+  </div>
+  <div *ngFor="let result of skills">  
+    <div class="row divPadding">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-4">
+          <label>{{result.Skill_Name}}</label>
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+          <div class="col-6">
+            <button name="EditSkill" class="btn btn-md btn-block" (click)="callInitEdit(result.Skill_ID,result.Skill_Name)">Edit</button>
+          </div>
+          <div class="col-6">
+            <button name="DelSkill" class="btn btn-md btn-block" (click)="callDeleteSkill(result.Skill_ID)">Delete</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </div> 
+  </div>
+</div>

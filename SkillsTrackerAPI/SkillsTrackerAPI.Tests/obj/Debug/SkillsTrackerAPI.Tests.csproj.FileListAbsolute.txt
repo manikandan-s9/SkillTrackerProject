@@ -117,4 +117,3 @@ C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\Ski
 C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI.Tests\obj\Debug\SkillsTrackerAPI.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI.Tests\obj\Debug\SkillsTrackerAPI.Tests.dll
 C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI.Tests\obj\Debug\SkillsTrackerAPI.Tests.pdb
-C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI.Tests\bin\Debug\App_Data\SkillTrackerDB.mdf

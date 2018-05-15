@@ -188,3 +188,6 @@ C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\Ski
 C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.dll
 C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\obj\Debug\SkillsTrackerAPI.pdb
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\SkillsTrackerAPI\bin\EntityFramework.SqlServerCompact.xml

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bcb0bc4c-c410-4eac-a7e5-f7958f634190" name="Admin@FSD 2018-05-15 06:41:14" runUser="FSD\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3c03eaa1-14be-4ff3-9537-e6353521ee3c">
+    <Deployment userDeploymentRoot="C:\Users\Admin\Desktop\Final SBA Certification Project\FSD_SBA_Certification\SkillsTrackerAPI\CodeCoverage\UnitTestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Admin_FSD 2018-05-15 06_41_14" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-05-15T06:41:14.1124057-07:00" queuing="2018-05-15T06:41:24.4969900-07:00" start="2018-05-15T06:41:25.0969907-07:00" finish="2018-05-15T06:41:37.9377153-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PutSkillTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="1d52cf88-526b-1d23-80fc-be9f96d6204c">
+      <Execution id="18f27b3f-651c-4acf-87d2-f18b72325f25" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.SkillsControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PutSkillTest" />
+    </UnitTest>
+    <UnitTest name="GetSkillsTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="63bae00d-7d84-1170-6765-b7d3caf66337">
+      <Execution id="b0e8423c-7304-4edf-855c-961e777a0a2b" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.SkillsControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSkillsTest" />
+    </UnitTest>
+    <UnitTest name="GetAssociatesTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="5ce6d30c-7c7a-1bd6-0b34-e26b21b90beb">
+      <Execution id="d635705a-d6af-462e-ae83-1a0d71f5fedb" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.AssociatesControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAssociatesTest" />
+    </UnitTest>
+    <UnitTest name="RegisterTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="37c57438-2447-db97-949d-603b49e61f93">
+      <Execution id="a5afe023-a48c-4a46-ae30-94ae79c7393a" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Tests.WebApiConfigTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest" />
+    </UnitTest>
+    <UnitTest name="GetAssociateTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="c28be7a4-520b-858d-188c-05f78020d3f1">
+      <Execution id="60f214c9-865d-413d-8278-77a6b52a6e3a" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.AssociatesControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAssociateTest" />
+    </UnitTest>
+    <UnitTest name="PutAssociateTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="074c2ca4-4d46-9931-a8ce-97649ee8f73a">
+      <Execution id="3f5d4afa-9342-42a0-9db8-ed1540b744c7" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.AssociatesControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PutAssociateTest" />
+    </UnitTest>
+    <UnitTest name="PostAssociateTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="dd5b3b57-be30-8946-5637-3093c1ec7e2b">
+      <Execution id="20f1a312-e7f6-45ab-8db2-02fceb4c9259" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.AssociatesControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PostAssociateTest" />
+    </UnitTest>
+    <UnitTest name="GetSkillTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="322627a8-42f6-c53e-1c89-67b39316c02a">
+      <Execution id="22127679-be5e-4d67-9cc3-d973283ea828" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.SkillsControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSkillTest" />
+    </UnitTest>
+    <UnitTest name="DeleteSkillTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="5bcb0d7c-d1b7-03b6-2024-69e0d1ab9233">
+      <Execution id="ee267b54-436c-424c-b9e3-cbdb313c359f" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.SkillsControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteSkillTest" />
+    </UnitTest>
+    <UnitTest name="RegisterRoutesTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="84e6b399-ccb9-3f76-8d2f-a0f754aa456d">
+      <Execution id="a032a54c-a928-47ab-bdd6-e62b89f3d791" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Tests.RouteConfigTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterRoutesTest" />
+    </UnitTest>
+    <UnitTest name="PostSkillTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="3d39b2ee-93dd-b844-5e7b-7357d3a5415e">
+      <Execution id="c0e83ec4-6b23-410e-8391-69833a2bbc83" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.SkillsControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PostSkillTest" />
+    </UnitTest>
+    <UnitTest name="UploadImageTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="b66bacd5-d03c-764b-46cd-f9e72f238457">
+      <Execution id="818558d4-e6f8-4fd7-9997-cb7c0cf280c7" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.AssociatesControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UploadImageTest" />
+    </UnitTest>
+    <UnitTest name="DeleteAssociateTest" storage="..\skillstrackerapi.tests\bin\debug\skillstrackerapi.tests.dll" id="8f64e80b-ba73-52d3-69ac-9f3692dc3646">
+      <Execution id="99c437f5-a33e-4324-a07a-21b9ce4c014c" />
+      <TestMethod codeBase="C:/Users/Admin/Desktop/Final SBA Certification Project/FSD_SBA_Certification/SkillsTrackerAPI/SkillsTrackerAPI.Tests/bin/Debug/SkillsTrackerAPI.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SkillsTrackerAPI.Controllers.Tests.AssociatesControllerTests, SkillsTrackerAPI.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteAssociateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8f64e80b-ba73-52d3-69ac-9f3692dc3646" executionId="99c437f5-a33e-4324-a07a-21b9ce4c014c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ce6d30c-7c7a-1bd6-0b34-e26b21b90beb" executionId="d635705a-d6af-462e-ae83-1a0d71f5fedb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c28be7a4-520b-858d-188c-05f78020d3f1" executionId="60f214c9-865d-413d-8278-77a6b52a6e3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd5b3b57-be30-8946-5637-3093c1ec7e2b" executionId="20f1a312-e7f6-45ab-8db2-02fceb4c9259" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="074c2ca4-4d46-9931-a8ce-97649ee8f73a" executionId="3f5d4afa-9342-42a0-9db8-ed1540b744c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b66bacd5-d03c-764b-46cd-f9e72f238457" executionId="818558d4-e6f8-4fd7-9997-cb7c0cf280c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bcb0d7c-d1b7-03b6-2024-69e0d1ab9233" executionId="ee267b54-436c-424c-b9e3-cbdb313c359f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63bae00d-7d84-1170-6765-b7d3caf66337" executionId="b0e8423c-7304-4edf-855c-961e777a0a2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="322627a8-42f6-c53e-1c89-67b39316c02a" executionId="22127679-be5e-4d67-9cc3-d973283ea828" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d39b2ee-93dd-b844-5e7b-7357d3a5415e" executionId="c0e83ec4-6b23-410e-8391-69833a2bbc83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d52cf88-526b-1d23-80fc-be9f96d6204c" executionId="18f27b3f-651c-4acf-87d2-f18b72325f25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e6b399-ccb9-3f76-8d2f-a0f754aa456d" executionId="a032a54c-a928-47ab-bdd6-e62b89f3d791" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37c57438-2447-db97-949d-603b49e61f93" executionId="a5afe023-a48c-4a46-ae30-94ae79c7393a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="99c437f5-a33e-4324-a07a-21b9ce4c014c" testId="8f64e80b-ba73-52d3-69ac-9f3692dc3646" testName="DeleteAssociateTest" computerName="FSD" duration="00:00:08.1706805" startTime="2018-05-15T06:41:25.2229902-07:00" endTime="2018-05-15T06:41:35.1116822-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99c437f5-a33e-4324-a07a-21b9ce4c014c">
+    </UnitTestResult>
+    <UnitTestResult executionId="d635705a-d6af-462e-ae83-1a0d71f5fedb" testId="5ce6d30c-7c7a-1bd6-0b34-e26b21b90beb" testName="GetAssociatesTest" computerName="FSD" duration="00:00:00.0276187" startTime="2018-05-15T06:41:35.4456814-07:00" endTime="2018-05-15T06:41:35.5226814-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d635705a-d6af-462e-ae83-1a0d71f5fedb">
+    </UnitTestResult>
+    <UnitTestResult executionId="60f214c9-865d-413d-8278-77a6b52a6e3a" testId="c28be7a4-520b-858d-188c-05f78020d3f1" testName="GetAssociateTest" computerName="FSD" duration="00:00:00.0167346" startTime="2018-05-15T06:41:35.5406806-07:00" endTime="2018-05-15T06:41:35.5646830-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60f214c9-865d-413d-8278-77a6b52a6e3a">
+    </UnitTestResult>
+    <UnitTestResult executionId="20f1a312-e7f6-45ab-8db2-02fceb4c9259" testId="dd5b3b57-be30-8946-5637-3093c1ec7e2b" testName="PostAssociateTest" computerName="FSD" duration="00:00:00.2408448" startTime="2018-05-15T06:41:35.5816810-07:00" endTime="2018-05-15T06:41:35.8296818-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20f1a312-e7f6-45ab-8db2-02fceb4c9259">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f5d4afa-9342-42a0-9db8-ed1540b744c7" testId="074c2ca4-4d46-9931-a8ce-97649ee8f73a" testName="PutAssociateTest" computerName="FSD" duration="00:00:00.1023801" startTime="2018-05-15T06:41:35.8476814-07:00" endTime="2018-05-15T06:41:35.9656817-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f5d4afa-9342-42a0-9db8-ed1540b744c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="818558d4-e6f8-4fd7-9997-cb7c0cf280c7" testId="b66bacd5-d03c-764b-46cd-f9e72f238457" testName="UploadImageTest" computerName="FSD" duration="00:00:00.3475178" startTime="2018-05-15T06:41:35.9856818-07:00" endTime="2018-05-15T06:41:36.3386829-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="818558d4-e6f8-4fd7-9997-cb7c0cf280c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee267b54-436c-424c-b9e3-cbdb313c359f" testId="5bcb0d7c-d1b7-03b6-2024-69e0d1ab9233" testName="DeleteSkillTest" computerName="FSD" duration="00:00:00.3772475" startTime="2018-05-15T06:41:36.4566819-07:00" endTime="2018-05-15T06:41:36.8666816-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee267b54-436c-424c-b9e3-cbdb313c359f">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0e8423c-7304-4edf-855c-961e777a0a2b" testId="63bae00d-7d84-1170-6765-b7d3caf66337" testName="GetSkillsTest" computerName="FSD" duration="00:00:00.0060261" startTime="2018-05-15T06:41:36.8916820-07:00" endTime="2018-05-15T06:41:36.9086818-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0e8423c-7304-4edf-855c-961e777a0a2b">
+    </UnitTestResult>
+    <UnitTestResult executionId="22127679-be5e-4d67-9cc3-d973283ea828" testId="322627a8-42f6-c53e-1c89-67b39316c02a" testName="GetSkillTest" computerName="FSD" duration="00:00:00.0242909" startTime="2018-05-15T06:41:36.9456823-07:00" endTime="2018-05-15T06:41:36.9776823-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22127679-be5e-4d67-9cc3-d973283ea828">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0e83ec4-6b23-410e-8391-69833a2bbc83" testId="3d39b2ee-93dd-b844-5e7b-7357d3a5415e" testName="PostSkillTest" computerName="FSD" duration="00:00:00.0276737" startTime="2018-05-15T06:41:37.0296828-07:00" endTime="2018-05-15T06:41:37.0676822-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0e83ec4-6b23-410e-8391-69833a2bbc83">
+    </UnitTestResult>
+    <UnitTestResult executionId="18f27b3f-651c-4acf-87d2-f18b72325f25" testId="1d52cf88-526b-1d23-80fc-be9f96d6204c" testName="PutSkillTest" computerName="FSD" duration="00:00:00.0178017" startTime="2018-05-15T06:41:37.0896814-07:00" endTime="2018-05-15T06:41:37.1146812-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18f27b3f-651c-4acf-87d2-f18b72325f25">
+    </UnitTestResult>
+    <UnitTestResult executionId="a032a54c-a928-47ab-bdd6-e62b89f3d791" testId="84e6b399-ccb9-3f76-8d2f-a0f754aa456d" testName="RegisterRoutesTest" computerName="FSD" duration="00:00:00.2074459" startTime="2018-05-15T06:41:37.1536802-07:00" endTime="2018-05-15T06:41:37.3676819-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a032a54c-a928-47ab-bdd6-e62b89f3d791">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5afe023-a48c-4a46-ae30-94ae79c7393a" testId="37c57438-2447-db97-949d-603b49e61f93" testName="RegisterTest" computerName="FSD" duration="00:00:00.2521157" startTime="2018-05-15T06:41:37.3916813-07:00" endTime="2018-05-15T06:41:37.6536816-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5afe023-a48c-4a46-ae30-94ae79c7393a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

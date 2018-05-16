@@ -96,10 +96,30 @@ namespace SkillTrackerDataLayer
             {
                 asso.Associate_ID = id;
             }
+            Associate associateObj = new Associate
+            {
+                ID = associate.ID,
+                Associate_ID = associate.Associate_ID,
+                Name = associate.Name,
+                Email = associate.Email,
+                Mobile = associate.Mobile,
+                Gender = associate.Gender,
+                Level_1 = associate.Level_1,
+                Level_2 = associate.Level_2,
+                Level_3 = associate.Level_3,
+                Status_Green = associate.Status_Green,
+                Status_Blue = associate.Status_Blue,
+                Status_Red = associate.Status_Red,
+                Pic = associate.Pic,
+                Remark = associate.Remark,
+                Other_Skills = associate.Other_Skills,
+                Strength = associate.Strength,
+                Weakness = associate.Weakness
+            };
             List<Associate_Skills> Askills = associate.Associate_Skills.Select(askill => new Associate_Skills { ID = askill.ID, Skill_ID = askill.Skill_ID, Associate_ID = askill.Associate_ID, Skill_Score = askill.Skill_Score }).ToList();
             this.DeleteAssociate_Skills(id);
             associate.Associate_Skills = null;
-            db.Entry(associate).State = EntityState.Modified;
+            db.Entry(associateObj).State = EntityState.Modified;
             db.SaveChanges();
             if (Askills != null && Askills.Count > 0)
             {

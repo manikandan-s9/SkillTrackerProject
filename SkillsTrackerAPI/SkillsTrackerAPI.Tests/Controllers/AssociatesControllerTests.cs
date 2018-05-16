@@ -70,7 +70,7 @@ namespace SkillsTrackerAPI.Controllers.Tests
         [TestMethod]
         public void PutAssociateTest()
         {
-            var associate = new Associate
+            var associate = new AssociateList
             {
                 ID = 12,
                 Name = "Testing",
@@ -88,11 +88,11 @@ namespace SkillsTrackerAPI.Controllers.Tests
                 Gender = "F",
                 Other_Skills = "fsdfa",
                 Associate_ID = "2342424",
-                Associate_Skills = new Associate_Skills[] { new Associate_Skills {Associate_ID=12,Skill_ID=4,Skill_Score=8},
-                                                            new Associate_Skills {Associate_ID=12,Skill_ID=5,Skill_Score=10},
-                                                            new Associate_Skills {Associate_ID=12,Skill_ID=6,Skill_Score=9},
-                                                            new Associate_Skills {Associate_ID=12,Skill_ID=10,Skill_Score=14},
-                                                            new Associate_Skills {Associate_ID=12,Skill_ID=12,Skill_Score=11}}
+                Associate_Skills = new Associate_Skills_List[] { new Associate_Skills_List {Associate_ID=12,Skill_ID=4,Skill_Score=8},
+                                                            new Associate_Skills_List {Associate_ID=12,Skill_ID=5,Skill_Score=10},
+                                                            new Associate_Skills_List {Associate_ID=12,Skill_ID=6,Skill_Score=9},
+                                                            new Associate_Skills_List {Associate_ID=12,Skill_ID=10,Skill_Score=14},
+                                                            new Associate_Skills_List {Associate_ID=12,Skill_ID=12,Skill_Score=11}}
             };
             var associateList = associatesController.PutAssociate(12, associate);
             Assert.IsNotNull(associateList);

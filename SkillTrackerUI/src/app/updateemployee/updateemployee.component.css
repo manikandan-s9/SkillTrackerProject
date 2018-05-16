@@ -135,10 +135,14 @@
     cursor: pointer;
 }
 
-.switch-field-green:checked + label {
-  background-color: #A5DC86;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+.switch-field-green input:checked + label {
+  -webkit-box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 5px 3px rgba(0, 0, 0, 0.3), 0 2px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition:    all 0.2s ease-in-out;
+  -ms-transition:     all 0.2s ease-in-out;
+  -o-transition:      all 0.2s ease-in-out;
+  transition:         all 0.2s ease-in-out;
 }
 
 .switch-field-green label:first-of-type {
@@ -193,10 +197,14 @@
     cursor: pointer;
 }
 
-.switch-field-red:checked + label {
-  background-color: #A5DC86;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+.switch-field-red input:checked + label {
+  -webkit-box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 5px 3px rgba(0, 0, 0, 0.3), 0 2px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition:    all 0.2s ease-in-out;
+  -ms-transition:     all 0.2s ease-in-out;
+  -o-transition:      all 0.2s ease-in-out;
+  transition:         all 0.2s ease-in-out;
 }
 
 .switch-field-red label:first-of-type {
@@ -251,10 +259,14 @@
     cursor: pointer;
 }
 
-.switch-field-blue:checked + label {
-  background-color: #A5DC86;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+.switch-field-blue input:checked + label {
+  -webkit-box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 5px 3px rgba(0, 0, 0, 0.3), 0 2px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition:    all 0.2s ease-in-out;
+  -ms-transition:     all 0.2s ease-in-out;
+  -o-transition:      all 0.2s ease-in-out;
+  transition:         all 0.2s ease-in-out;
 }
 
 .switch-field-blue label:first-of-type {

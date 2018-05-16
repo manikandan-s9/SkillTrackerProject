@@ -64,10 +64,9 @@ body
     margin-bottom: 10px;
 }
 .status{
-    width: 40px;
+    width: 45px;
     height: 40px;
     float: left;
-    margin-left: 5px;
 }
 .green{
     background-color: #00FF00;
@@ -225,7 +224,7 @@ body
 
 .candidate_blk{
     float: left;
-    width: 111px;
+    width: 113px;
     height: 80px;
     background-color: #f1f1f1;
     padding: 5px 8px;

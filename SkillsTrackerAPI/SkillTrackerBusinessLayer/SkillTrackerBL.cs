@@ -24,12 +24,12 @@ namespace SkillTrackerBusinessLayer
         {
             return dl.GetAssociates();
         }
-        public Associate GetAssociate(long id)
+        public AssociateList GetAssociate(long id)
         {
-            Associate associate = dl.GetAssociate(id);
+            AssociateList associate = dl.GetAssociate(id);
             return associate;
         }
-        public Associate PutAssociate(long id, Associate associate)
+        public Associate PutAssociate(long id, AssociateList associate)
         {
             Associate associateUpdated = dl.PutAssociate(id, associate);
             return associateUpdated;
@@ -47,13 +47,13 @@ namespace SkillTrackerBusinessLayer
         #endregion Associate Methods
 
         #region Skill Methods
-        public IQueryable<Skill> GetSkills()
+        public IQueryable<Skill_List> GetSkills()
         {
             return dl.GetSkills();
         }
-        public Skill GetSkill(long id)
+        public Skill_List GetSkill(long id)
         {
-            Skill skill = dl.GetSkill(id);
+            Skill_List skill = dl.GetSkill(id);
             return skill;
         }
         public Skill PutSkill(long id, Skill skill)

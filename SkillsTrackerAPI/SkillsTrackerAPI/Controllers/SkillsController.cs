@@ -1,4 +1,5 @@
 ﻿using SkillTrackerBusinessLayer;
+using SkillTrackerDataLayer;
 using SkillTrackerEntityLayer;
 using System;
 using System.Collections.Generic;
@@ -24,16 +25,16 @@ namespace SkillsTrackerAPI.Controllers
 
         #region API Methods
         // GET: api/Skills
-        public IQueryable<Skill> GetSkills()
+        public IQueryable<Skill_List> GetSkills()
         {
             return bl.GetSkills();
         }
 
         // GET: api/Skills/5
         [ResponseType(typeof(Skill))]
-        public Skill GetSkill(long id)
+        public Skill_List GetSkill(long id)
         {
-            Skill skill = bl.GetSkill(id);
+            Skill_List skill = bl.GetSkill(id);
             return skill;
         }
 

@@ -10,7 +10,7 @@ namespace SkillTrackerDataLayer
 {
     public class SkillTrackerDataLayer
     {
-        private SkillTrackerDBEntities db ;
+        private SkillTrackerDBEntities db;
 
         #region Contructor
         public SkillTrackerDataLayer()
@@ -49,30 +49,61 @@ namespace SkillTrackerDataLayer
                     Skill_Score = s.Skill_Score,
                     Skill = new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
                 }).ToList(),
-                skills_List = a.Associate_Skills.Select(s =>  s.Skill.Skill_Name)
+                skills_List = a.Associate_Skills.Select(s => s.Skill.Skill_Name)
             });
 
             return aList;
         }
-        public Associate GetAssociate(long id)
+        public AssociateList GetAssociate(long id)
         {
-            Associate associate = db.Associates.Find(id);
-            return associate;
+            Associate objAssociate = db.Associates.Find(id);            
+
+            AssociateList associateList = new AssociateList
+            {
+                ID = objAssociate.ID,
+                Associate_ID = objAssociate.Associate_ID,
+                Name = objAssociate.Name,
+                Email = objAssociate.Email,
+                Mobile = objAssociate.Mobile,
+                Gender = objAssociate.Gender,
+                Level_1 = objAssociate.Level_1,
+                Level_2 = objAssociate.Level_2,
+                Level_3 = objAssociate.Level_3,
+                Status_Green = objAssociate.Status_Green,
+                Status_Blue = objAssociate.Status_Blue,
+                Status_Red = objAssociate.Status_Red,
+                Pic = objAssociate.Pic,
+                Remark = objAssociate.Remark,
+                Other_Skills = objAssociate.Other_Skills,
+                Strength = objAssociate.Strength,
+                Weakness = objAssociate.Weakness,
+                Associate_Skills = objAssociate.Associate_Skills.Select(s => new Associate_Skills_List
+                {
+                    ID = s.ID,
+                    Associate_ID = s.Associate_ID,
+                    Skill_ID = s.Skill_ID,
+                    Skill_Score = s.Skill_Score,
+                    Skill = new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
+                }).ToList(),
+                skills_List = objAssociate.Associate_Skills.Select(s => s.Skill.Skill_Name)
+            };
+
+            return associateList;
         }
-        public Associate PutAssociate(long id, Associate associate)
-        {            
-            foreach(var asso in associate.Associate_Skills)
+        public Associate PutAssociate(long id, AssociateList associate)
+        {
+            foreach (var asso in associate.Associate_Skills)
             {
                 asso.Associate_ID = id;
             }
-            List<Associate_Skills> Askills = associate.Associate_Skills.ToList();
+            List<Associate_Skills> Askills = associate.Associate_Skills.Select(askill => new Associate_Skills { ID = askill.ID, Skill_ID = askill.Skill_ID, Associate_ID = askill.Associate_ID, Skill_Score = askill.Skill_Score }).ToList();
             this.DeleteAssociate_Skills(id);
             associate.Associate_Skills = null;
             db.Entry(associate).State = EntityState.Modified;
             db.SaveChanges();
             if (Askills != null && Askills.Count > 0)
             {
-                this.PostAssociate_Skills(Askills);                
+                this.PostAssociate_Skills(Askills);
             }
 
             Associate associateUpdated = db.Associates.Find(id);
@@ -83,7 +114,7 @@ namespace SkillTrackerDataLayer
         {
             db.Associates.Add(associate);
             db.SaveChanges();
-            
+
             return associate;
         }
         public Associate DeleteAssociate(long id)
@@ -101,13 +132,41 @@ namespace SkillTrackerDataLayer
         #endregion Associate Methods
 
         #region Skill Methods
-        public IQueryable<Skill> GetSkills()
+        public IQueryable<Skill_List> GetSkills()
         {
-            return db.Skills.OrderBy(s => s.Skill_Name);
+            IQueryable<Skill_List> result = from skill in db.Skills
+                                            orderby skill.Skill_Name
+                                            select new Skill_List
+                                            {
+                                                Skill_ID = skill.Skill_ID,
+                                                Skill_Name = skill.Skill_Name,
+                                                Associate_Skills = (from askill in skill.Associate_Skills
+                                                                    select new Associate_Skills_List
+                                                                    {
+                                                                        ID = askill.ID,
+                                                                        Associate_ID = askill.Associate_ID,
+                                                                        Skill_ID = askill.Skill_ID,
+                                                                        Skill_Score = askill.Skill_Score
+                                                                    }).ToList()
+                                            };
+            return result;
         }
-        public Skill GetSkill(long id)
+        public Skill_List GetSkill(long id)
         {
-            Skill skill = db.Skills.Find(id);
+            var objskill= db.Skills.Find(id);
+            Skill_List skill = new Skill_List
+            {
+                Skill_ID = objskill.Skill_ID,
+                Skill_Name = objskill.Skill_Name,
+                Associate_Skills = (from askill in objskill.Associate_Skills
+                                    select new Associate_Skills_List
+                                    {
+                                        ID = askill.ID,
+                                        Associate_ID = askill.Associate_ID,
+                                        Skill_ID = askill.Skill_ID,
+                                        Skill_Score = askill.Skill_Score
+                                    }).ToList()
+            };
 
             return skill;
         }
@@ -189,5 +248,6 @@ namespace SkillTrackerDataLayer
     {
         public long Skill_ID { get; set; }
         public string Skill_Name { get; set; }
+        public IList<Associate_Skills_List> Associate_Skills { get; set; }
     }
 }

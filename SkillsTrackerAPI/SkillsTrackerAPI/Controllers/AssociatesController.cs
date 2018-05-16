@@ -33,17 +33,17 @@ namespace SkillsTrackerAPI.Controllers
         }
 
         // GET: api/Associates/5
-        [ResponseType(typeof(Associate))]
-        public Associate GetAssociate(long id)
+        [ResponseType(typeof(AssociateList))]
+        public AssociateList GetAssociate(long id)
         {
-            Associate associate = bl.GetAssociate(id);
+            AssociateList associate = bl.GetAssociate(id);
 
             return associate;
         }
 
         // PUT: api/Associates/5
         [ResponseType(typeof(void))]
-        public Associate PutAssociate(long id, Associate associate)
+        public Associate PutAssociate(long id, AssociateList associate)
         {
             Associate associateUpdated;
             associate.Associate_Skills = associate.Associate_Skills.Where(s => s.Skill_Score > 0).ToArray();
@@ -86,10 +86,10 @@ namespace SkillsTrackerAPI.Controllers
                 var filepath = HttpContext.Current.Server.MapPath("~/Images/" + imageName);
                 postedFile.SaveAs(filepath);
                 long id = httprequest["AssociateID"] == null ? 0 : Convert.ToInt32(httprequest["AssociateID"]);
-                Associate associate = bl.GetAssociate(id);
+                AssociateList associate = bl.GetAssociate(id);
                 associate.Pic = imageName;
 
-                associate = bl.PutAssociate(id, associate);
+                Associate associates = bl.PutAssociate(id, associate);
             }
 
             return Request.CreateResponse(HttpStatusCode.Created);

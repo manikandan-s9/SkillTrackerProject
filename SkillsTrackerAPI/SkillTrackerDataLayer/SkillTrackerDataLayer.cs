@@ -118,7 +118,8 @@ namespace SkillTrackerDataLayer
             };
             List<Associate_Skills> Askills = associate.Associate_Skills.Select(askill => new Associate_Skills { ID = askill.ID, Skill_ID = askill.Skill_ID, Associate_ID = askill.Associate_ID, Skill_Score = askill.Skill_Score }).ToList();
             this.DeleteAssociate_Skills(id);
-            associate.Associate_Skills = null;
+            associateObj.Associate_Skills = null;
+            db = new SkillTrackerDBEntities();
             db.Entry(associateObj).State = EntityState.Modified;
             db.SaveChanges();
             if (Askills != null && Askills.Count > 0)

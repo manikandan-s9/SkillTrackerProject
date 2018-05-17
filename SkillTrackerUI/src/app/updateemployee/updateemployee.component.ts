@@ -118,7 +118,7 @@ export class UpdateemployeeComponent implements OnInit {
     self._skillTrackerService.UpdateAssociate(this.id, body)
       .subscribe(
       associate => {
-              if(this.imageFile!=null && this.imageFile!=undefined && (this.bgPathImage==null && this.bgPathImage==""))
+              if(this.imageFile!=null && this.imageFile!=undefined && (this.bgPathImage==null || this.bgPathImage=="" || this.bgPathImage!=this.imageFile.name))
               {
                   self._skillTrackerService.PostAddAssociateImage(this.id, this.imageFile)
                     .subscribe(

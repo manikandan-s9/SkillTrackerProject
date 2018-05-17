@@ -11,7 +11,7 @@ import { FormGroup, FormBuilder, Validators, FormControl, FormArray, ReactiveFor
 export class SkillTrackerService {
   private associateID: any;
   private Enable: boolean = false;
-  serviceURL = "https://skilltrackerapi.azurewebsites.net/";
+  serviceURL = "http://localhost:1207/";
 
   constructor(private _http: Http, private http : HttpClient) { }
 

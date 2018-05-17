@@ -93,7 +93,6 @@ export class SkilldashboardComponent implements OnInit {
     Highcharts.chart(this.container.nativeElement, {
     series: [{
         type: 'treemap',
-        //layoutAlgorithm: 'stripes',
         data: this.getSkillCharData()
     }],
     title: {

@@ -64,7 +64,7 @@
                 <div class="col-md-12">
                     <div class="table-responsive table-scroll">
                         <table class="table" style="font-size: 13px;">
-                            <tbody>
+                            <thead>
                                 <tr>
                                     <th width="40px"><label class="sformtxt txtpic">Pic</label></th>
                                     <th width="55px"><label class="sformtxt txtstatus">status</label></th>
@@ -75,6 +75,8 @@
                                     <th><input class="sformtxt txtskill" placeholder="Skill" name="skill" [(ngModel)]="skill" type="text"></th>
                                     <th><button type="button" class="btnm" [routerLink]="['/addemployee']">Add Associate</button></th>
                                 </tr>
+                            </thead>
+                            <tbody>
                                 <tr *ngFor="let result of associates | myfilter : name:associateID:email:mobile:skill">
                                     <td><div class="pic_box" [style.backgroundImage]="'url(' + this._skillTrackerService.serviceURL + 'Images/' + result.Pic + ')'"></div></td>
                                     <td>

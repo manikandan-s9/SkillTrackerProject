@@ -3,3 +3,6 @@
   overflow:auto;  
   margin-top:20px;
 }
+.table thead th {
+    vertical-align: top;
+}

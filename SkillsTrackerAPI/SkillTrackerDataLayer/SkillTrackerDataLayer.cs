@@ -136,6 +136,35 @@ namespace SkillTrackerDataLayer
             db.Associates.Add(associate);
             db.SaveChanges();
 
+            AssociateList associateObj = new AssociateList
+            {
+                ID = associate.ID,
+                Associate_ID = associate.Associate_ID,
+                Name = associate.Name,
+                Email = associate.Email,
+                Mobile = associate.Mobile,
+                Gender = associate.Gender,
+                Level_1 = associate.Level_1,
+                Level_2 = associate.Level_2,
+                Level_3 = associate.Level_3,
+                Status_Green = associate.Status_Green,
+                Status_Blue = associate.Status_Blue,
+                Status_Red = associate.Status_Red,
+                Pic = associate.Pic,
+                Remark = associate.Remark,
+                Other_Skills = associate.Other_Skills,
+                Strength = associate.Strength,
+                Weakness = associate.Weakness,
+                Associate_Skills= associate.Associate_Skills.Select(s => new Associate_Skills_List
+                {
+                    ID = s.ID,
+                    Associate_ID = s.Associate_ID,
+                    Skill_ID = s.Skill_ID,
+                    Skill_Score = s.Skill_Score,
+                    Skill = new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
+                }).ToList()
+            };
+
             return associate;
         }
         public Associate DeleteAssociate(long id)

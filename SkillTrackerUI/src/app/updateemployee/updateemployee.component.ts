@@ -70,7 +70,7 @@ export class UpdateemployeeComponent implements OnInit {
           this.associateID=associate.Associate_ID;
           this.email=associate.Email;
           this.mobile=associate.Mobile;
-          this.gender=associate.Gender.trim();
+          this.gender=associate.Gender!=null && associate.Gender!="" ? associate.Gender.trim():null;
           this.status=associate.Status_Green == true? 'G': (associate.Status_Blue == true ? 'B': (associate.Status_Red == true?'R':null));
           this.level=associate.Level_1 == true? 'L1': (associate.Level_2 == true ? 'L2': (associate.Level_3 == true?'L3':null));;
           this.remarks=associate.Remark;
@@ -97,7 +97,48 @@ export class UpdateemployeeComponent implements OnInit {
   }
 
   callUpdateAssociate()
-  {    
+  {
+    if(this.name=="" || this.name==undefined || this.associateID=="" || this.associateID==undefined || this.email=="" || this.email==undefined || this.mobile==""|| 
+    this.mobile==undefined || this.gender==""|| this.gender==undefined || this.status=="" || this.status==undefined || this.level=="" || this.level==undefined)
+    {
+      
+      var message= "Please fill the below manatory details\n\n ";
+      if(this.name == "" || this.name == undefined)
+      message+="- Name required\n "
+
+      if(this.associateID == "" || this.associateID == undefined)
+      message+="- Associate ID required\n "
+
+      if(this.email == "" || this.email == undefined){
+      message+="- Email required\n "
+      } else {
+        if(this.isEmailValid(this.email)){
+          message+="- Invalid email format\n "
+        }
+      }
+      if(this.mobile == "" || this.mobile == undefined)
+      message+="- Mobile no. required\n "
+
+      if(this.gender == "" || this.gender == undefined)
+      message+="- Gender required\n "
+
+      if(this.status == "" || this.status == undefined)
+      message+="- Associate status required\n "
+
+      if(this.level == "" || this.level == undefined)
+      message+="- Associate level required\n "
+
+      alert(message);
+      return false;
+    }
+    else{
+      var message= "Please fill the below manatory details\n\n ";
+      if(this.isEmailValid(this.email)){
+        message+="- Invalid email format\n "
+        alert(message);
+        return false;
+      }
+    }
     var skill =this.skillForm.get('skillslider').value;
     const body = {ID:this.id, Name: this.name, Associate_ID:this.associateID, 
                     Email:this.email, Gender:this.gender, Mobile:this.mobile,
@@ -134,6 +175,13 @@ export class UpdateemployeeComponent implements OnInit {
           },
           error => { }
       );  
+  }
+
+  isEmailValid(control) {  
+      var regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/  
+      return regex.test(control) ? false : {  
+          invalidEmail: true  
+        };  
   }
 
   changeListener(event) : void {

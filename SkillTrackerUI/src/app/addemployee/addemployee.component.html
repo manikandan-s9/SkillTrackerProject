@@ -4,14 +4,14 @@
       <h3 class="main_title">Skills Tracker: Add New Employee Skills</h3>
   </div>
   <div class="form-row">
-      <div class="col-sm-4 divPadding">
-          <div class="col-sm-12">
+      <div class="col-sm-4 divPaddingText">
+          <div class="col-sm-12 simple-form" >
               <div class="row">
                   <div class="col-sm-4">
                       <label class="form_label">Name</label>
                   </div>
                   <div class="col-sm-8">
-                      <input class="form_txt" type="text" [(ngModel)]="name">
+                      <input class="form_txt" type="text" [(ngModel)]="name" placeholder="Name" required>
                   </div>
               </div>
               <div class="row">
@@ -19,7 +19,7 @@
                       <label class="form_label">Associate ID</label>
                   </div>
                   <div class="col-sm-8">
-                      <input class="form_txtsm" type="text" [(ngModel)]="associateID">
+                      <input class="form_txtsm" type="number" [(ngModel)]="associateID" required placeholder="Associate ID">
                   </div>
               </div>
               <div class="row">
@@ -27,7 +27,7 @@
                       <label class="form_label">Email</label>
                   </div>
                   <div class="col-sm-8">
-                      <input class=" form_txt" type="email" [(ngModel)]="email">
+                      <input class=" form_txt" type="email" [(ngModel)]="email" required placeholder="Email Address">
                   </div>
               </div>
               <div class="row">
@@ -35,31 +35,33 @@
                       <label class="form_label">Mobile</label>
                   </div>
                   <div class="col-sm-8">
-                      <input class="form_txtsm" type="tel" [(ngModel)]="mobile">
+                      <input class="form_txtsm" type="number" [(ngModel)]="mobile" required placeholder="Mobile no.">
                   </div>
               </div>
               <div class="row">
                   <div class="col-sm-4">
                       <label class="form_label">Gender</label>
                   </div>
-                  <div class="col-sm-8">
-                      <div class="switch-field-gender">  
-                          <div class="level">
-                              <input type="radio" id="gender_M" name="gender" value="M" [(ngModel)]="gender"/>
-                              <label for="gender_M">Male</label>
-                          </div>
-                      </div>
-                      <div class="switch-field-gender">  
-                          <div class="level">
-                              <input type="radio" id="gender_F" name="gender" value="F" [(ngModel)]="gender"/>
-                              <label for="gender_F">Female</label>
-                          </div>
+                  <div class="col-sm-8" style="padding-left:5.5%; ">
+                      <div class="row">
+                        <div class="switch-field-gender">  
+                            <div class="level">
+                                <input type="radio" id="gender_M" name="gender" required value="M" [(ngModel)]="gender"/>
+                                <label for="gender_M">Male</label>
+                            </div>
+                        </div>
+                        <div class="switch-field-gender">  
+                            <div class="level">
+                                <input type="radio" id="gender_F" name="gender" required value="F" [(ngModel)]="gender"/>
+                                <label for="gender_F">Female</label>
+                            </div>
+                        </div>
                       </div>
                   </div>
               </div>
           </div> 
       </div>
-      <div class="col-sm-2 divPadding">
+      <div class="col-sm-3 divPadding">
         <div class="row">
           <div class="col-sm-12">
               <div id="image-preview" [style.backgroundImage]="'url(' + bgImage + ')'">
@@ -71,7 +73,7 @@
       </div>
       <div class="col-sm-2">
           <div class="form-row form_group">
-              <div class="col-sm-6 divPadding">
+              <div class="col-sm-6 divPadding simple-forms">
                   <div class="switch-field-green level_main">   
                       <div class="status green">
                           <input type="radio" id="switch_green" name="status" value="G" [(ngModel)]="status"/>
@@ -91,7 +93,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-sm-6 divPadding">
+              <div class="col-sm-6 divPadding simple-forms">
                   <div class="switch-field level_main divLevelPadding">  
                       <div class="level">
                           <input type="radio" id="switch_L1" name="level" value="L1" [(ngModel)]="level"/>
@@ -113,13 +115,13 @@
               </div>
           </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
           <div class="row">
               <div class="col-sm-12">
                   <div class="row">
-                      <div class="col-sm-12">
+                      <div class="col-sm-12 simple-form">
                           <label>Remarks:</label>
-                          <textarea class="form_txtarea" [(ngModel)]="remarks"></textarea>
+                          <textarea class="form_txtarea" [(ngModel)]="remarks" placeholder="Remarks"></textarea>
                       </div>
                   </div>
               </div>
@@ -154,12 +156,12 @@
       </ng-container>      
     </form>
     <div class="col-sm-4">
-        <div class="form-row range_main">
+        <div class="form-row range_main simple-form">
             <div class="col-sm-4 range_label">
                 <label>Others</label>
             </div>
             <div class="col-sm-8">        
-                <input type="text" class="form_txtsm" [(ngModel)]="others">
+                <input type="text" class="form_txtsm" [(ngModel)]="others" placeholder="Others">
             </div>
         </div>
     </div>
@@ -167,14 +169,14 @@
   <div class="row">
       <div class="dotted_line"></div>
   </div>
-  <div class="form-row divPadding">
+  <div class="form-row divPadding simple-form">
       <div class="col-sm-5">
           <div class="form-row">
-              <div class="col-sm-2">
+              <div class="col-sm-3">
                   <label class="form_label">Strength</label>
               </div>
-              <div class="col-sm-10">
-                  <input class="form_txt" type="text" [(ngModel)]="strength">
+              <div class="col-sm-9">
+                  <input class="form_txt" type="text" [(ngModel)]="strength" placeholder="Strength">
               </div>
           </div>
       </div>
@@ -182,11 +184,11 @@
       </div>
       <div class="col-sm-6">
         <div class="form-row">
-              <div class="col-sm-2">
+              <div class="col-sm-3">
                   <label class="form_label">Weakness</label>
               </div>
-              <div class="col-sm-8">
-                  <input class="form_txt" type="text" [(ngModel)]="weakness">
+              <div class="col-sm-9">
+                  <input class="form_txt" type="text" [(ngModel)]="weakness" placeholder="Weakness">
               </div>
           </div>
       </div> 

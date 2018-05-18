@@ -3,6 +3,10 @@ body
 {
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
+.container{
+    border: 1px;
+    border-color: #002c99;
+}
 
 .main_bg{
     background-color: #f1f1f1;
@@ -250,6 +254,8 @@ body
 }
 .txtpic{width: 100%; color: gray; font-weight: 200}
 .txtstatus{width:100%; color: gray; font-weight: 200}
+.txtpicGrid{width: 100%; color: white; font-weight: 300; font-size: 15px}
+.txtstatusGrid{width:100%; color: white; font-weight: 300; font-size: 15px}
 .txtname{width:100%;}
 .txtid{width:100%;}
 .txtemail{width:100%;}

@@ -116,12 +116,26 @@ export class SkilldashboardComponent implements OnInit {
   }
   getSkillCharData(){
     var data=[];
+    var i = 0;
+    
     this.skills.forEach(s=>{
+
+      var tempcolor;
+      if(i==0){
+        tempcolor="#ff0000";
+      }
+      else if(i==1){
+        tempcolor="#f48122";
+      }
+      else{
+      tempcolor = this.randomColorCode();
+    }
+    i++;
       data.push({
         name : s.Skill_Name,
-        value : s.Associate_Skills.length,
-        color : this.randomColorCode()
-      })
+        value : s.Associate_Skills.length,        
+        color : tempcolor
+      })      
     })
     return data;
   }

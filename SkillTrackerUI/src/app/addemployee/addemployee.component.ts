@@ -19,7 +19,7 @@ export class AddemployeeComponent implements OnInit {
   name:string;
   associateID: string;
   email: string;
-  mobile: number;
+  mobile: string;
   gender: string;
   pic: any;
   status: string;
@@ -66,7 +66,48 @@ export class AddemployeeComponent implements OnInit {
   }
 
   callAddAssociate()
-  {    
+  {
+    if(this.name=="" || this.name==undefined || this.associateID=="" || this.associateID==undefined || this.email=="" || this.email==undefined || this.mobile==""|| 
+    this.mobile==undefined || this.gender==""|| this.gender==undefined || this.status=="" || this.status==undefined || this.level=="" || this.level==undefined)
+    {
+      
+      var message= "Please fill the below manatory details\n\n ";
+      if(this.name == "" || this.name == undefined)
+      message+="- Name required\n "
+
+      if(this.associateID == "" || this.associateID == undefined)
+      message+="- Associate ID required\n "
+
+      if(this.email == "" || this.email == undefined){
+      message+="- Email required\n "
+      } else {
+        if(this.isEmailValid(this.email)){
+          message+="- Invalid email format\n "
+        }
+      }
+      if(this.mobile == "" || this.mobile == undefined)
+      message+="- Mobile no. required\n "
+
+      if(this.gender == "" || this.gender == undefined)
+      message+="- Gender required\n "
+
+      if(this.status == "" || this.status == undefined)
+      message+="- Associate status required\n "
+
+      if(this.level == "" || this.level == undefined)
+      message+="- Associate level required\n "
+
+      alert(message);
+      return false;
+    }
+    else{
+      var message= "Please fill the below manatory details\n\n ";
+      if(this.isEmailValid(this.email)){
+        message+="- Invalid email format\n "
+        alert(message);
+        return false;
+      }
+    }
     var skill =this.skillForm.get('skillslider').value;
     const body = {Name: this.name, Associate_ID:this.associateID, 
                     Email:this.email, Gender:this.gender, Mobile:this.mobile,
@@ -117,9 +158,16 @@ export class AddemployeeComponent implements OnInit {
     }
   }
 
+  isEmailValid(control) {  
+      var regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/  
+      return regex.test(control) ? false : {  
+          invalidEmail: true  
+        };  
+  }
+
   callReset(){
     this.name=null;
-    this.associateID=null;
+    this.associateID="";
     this.email=null;
     this.mobile=null;
     this.gender=null;

@@ -47,7 +47,7 @@ namespace SkillTrackerDataLayer
                     Associate_ID = s.Associate_ID,
                     Skill_ID = s.Skill_ID,
                     Skill_Score = s.Skill_Score,
-                    Skill = new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
+                    Skill = s.Skill == null ? null : new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
                 }).ToList(),
                 skills_List = a.Associate_Skills.Select(s => s.Skill.Skill_Name)
             });
@@ -83,7 +83,7 @@ namespace SkillTrackerDataLayer
                     Associate_ID = s.Associate_ID,
                     Skill_ID = s.Skill_ID,
                     Skill_Score = s.Skill_Score,
-                    Skill = new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
+                    Skill = s.Skill == null ? null : new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
                 }).ToList(),
                 skills_List = objAssociate.Associate_Skills.Select(s => s.Skill.Skill_Name)
             };
@@ -155,13 +155,13 @@ namespace SkillTrackerDataLayer
                 Other_Skills = associate.Other_Skills,
                 Strength = associate.Strength,
                 Weakness = associate.Weakness,
-                Associate_Skills= associate.Associate_Skills.Select(s => new Associate_Skills_List
+                Associate_Skills = associate.Associate_Skills.Select(s => new Associate_Skills_List
                 {
                     ID = s.ID,
                     Associate_ID = s.Associate_ID,
                     Skill_ID = s.Skill_ID,
                     Skill_Score = s.Skill_Score,
-                    Skill = new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
+                    Skill = s.Skill == null ? null: new Skill_List { Skill_ID = s.Skill.Skill_ID, Skill_Name = s.Skill.Skill_Name }
                 }).ToList()
             };
 
